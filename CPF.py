@@ -1,7 +1,7 @@
 #Verificador de cpf
 
 #calculo do primeiro digito do CPF
-while True:
+while True:#Solicita um novo CPF a cada CPF verificado
     cpf = input('Digite o seu cpf: ').replace('.','').replace(' ','').replace('-','')
     # Aqui eu tento verificar o CPF digitado pelo usuário
     try:
